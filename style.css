@@ -1,0 +1,441 @@
+body {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+#navbarNav, ul {
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.mainnav {
+    /*margin-top: 1px;*/
+}
+
+.register,.register2 {
+    margin-top: 1%;
+    padding: 2%;
+}
+/*.inp*/
+/*{*/
+/*    display: inline-block;*/
+/*    width: 50%;*/
+/*    : auto;*/
+/*}*/
+
+.register-right {
+    /*border: 3px solid red;*/
+    /*position: relative;*/
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+
+}
+
+/*.register-left input {*/
+/*    border: none;*/
+/*    border-radius: 1.5rem;*/
+/*    padding: 2%;*/
+/*    width: 60%;*/
+/*    background: #f8f9fa;*/
+/*    font-weight: bold;*/
+/*    color: #383d41;*/
+/*    margin-top: 30%;*/
+/*    margin-bottom: 3%;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 40%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.btnRegister1
+{
+    margin-bottom: 5px;
+    margin-left: 50%;
+    width: 30%;
+}
+.btnRegister3
+{
+    cursor: pointer;
+    float: right;
+    border: none;
+    border-radius: 1.5rem;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 40%;
+}
+
+/*.register .register-form{*/
+/*    padding: 10%;*/
+/*    margin-top: 10%;*/
+/*}*/
+.register-left,.register2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.register-left img {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+.register-left2 img
+{
+    /*width: 100%;*/
+}
+#info
+{
+    padding: 7% 15%;
+}
+
+.cus_img img {
+    /*border: 2px solid red;*/
+    margin-left: 115px;
+    margin-bottom: 21px;
+    width: 110%;
+    /*!*padding: 20px;*/
+    border-bottom-left-radius: 60px;
+
+}
+
+.icons
+{
+    color: #2663ca;
+    margin-bottom: 1rem;
+}
+.icons:hover
+{
+    color: cornflowerblue;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.nav {
+    margin-bottom: 0px;
+}
+
+.register .nav-tabs {
+    /*padding: 3px;*/
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 24%;
+    float: right;
+}
+
+.register .nav-tabs .nav-link {
+    padding: 1px;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+    width: 119px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+    /*border: solid 2px green;*/
+    text-align: center;
+    margin-top: 8%;
+    /*margin-bottom: -15%;*/
+    color: #495057;
+
+}
+.Info-box
+{
+    text-align: center;
+    padding: 5px;
+}
+#div_add
+{
+    padding: 5% 7%;
+}
+.ad
+{
+    text-align:left;
+}
+#ad_img
+{
+    border-radius: 6rem;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 25%;
+    transform: rotate(29deg);
+}
+.for_img img
+{
+
+    margin-left: 164px;
+    border-radius: 6rem;
+    width: 14%;
+    margin-top: -4%;
+    /*margin-bottom: -72px;*/
+    transform: rotate(29deg);
+}
+.for_img
+{
+    /*z-index: 1;*/
+    text-align: center;
+}
+#add
+{
+    text-align: center;
+    padding-top:4% ;
+    padding-bottom: 3%;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+#for_btn
+{
+    width: 30%;
+    border-radius:15px ;
+    padding: 3px 8px;
+    border: 2px solid ghostwhite;
+    margin-left: 36%;
+    margin-top: 15%;
+}
+#for_btn:hover
+{
+
+    border: 2px groove dodgerblue ;
+    background-color: #d2d3d7;
+}
+.btnContact
+{
+    width: 32%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #0062cc;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+.register .register-form{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6px;
+    padding-bottom: 4%;
+    margin-top: 1%;
+}
+.register-heading1 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.register-heading2 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.register-heading3 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+/*disbaleup-down*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.cust_help {
+    /*border: solid 2px red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*img {*/
+/*    outline: 1px;*/
+/*    solid #22746b!important;*/
+/*    outline-color: rgb(34, 116, 107) !important;*/
+/*    outline-style: solid !important;*/
+/*    outline-width: 1px !important;*/
+/*}*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    /*padding-top: 60px;*/
+}
+
+/* Modal Content/Box */
+.modal-content {
+    border: 3px solid green;
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    /*position: absolute;*/
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+
+}
+.head
+{
+    margin-top: 28px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.for_row
+{
+    /*padding: 3% 5%;*/
+}
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+/*.container {*/
+/*    padding: 16px;*/
+/*}*/
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+.deactive
+{
+    display: none !important;
+}
+.Ative{
+    display: block !important;
+}
+/*.cunst-info*/
+/*{*/
+/*    display: none;*/
+/*}*/
